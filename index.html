@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-shop</title>
+     
+    <!-- ======Bootstrap link========== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       
+    <!-- =======FONT AWESOME LINK======== -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+    <!-- =======MY EXTERNAL CSS LINK============= -->
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+
+
+
+<!-- ==========header start========= -->
+<header class="container-fluid mb-4 p-3 bg-white">
+    <!-- ***************nav start************ -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white mb-5 pb-4">
+        <div class="container w-75 d-flex justify-content-center ">
+          <a class="navbar-brand w-50 d-block d-sm-block d-lg-flex d-md-block d-xl-flex d-xxl-flex" href="#">
+              <div class="col img">
+              <img src="images/logo.png" alt="" class="img-fluid">
+            </div>
+            <div class="col name  ">
+                <form class="d-none d-sm-none d-lg-flex d-md-none d-xl-flex d-xxl-flex rounded-pill bg-light">
+                    <input class="form-control rounded-pill border border-light bg-light  w-75" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn " type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-start pt-0 pb-4 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav> 
+
+
+    <!-- ************nav end************ -->
+
+
+
+    <div class="container w-75 header-banner gy-5 mt-5 ">
+        
+
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <div class="carousel-inner p-4 w-100 m-auto  ">
+              <div class="carousel-item active ">
+                <div class="row align-items-center">
+                
+                <div class="caption col-md-7 col-sm-7 col-12 col-lg-7 col-xl-7 ">
+                    <h1 class="title">Mega LCD TV For Sports</h1>
+                    <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                    <h1 class="price">$1200</h1>
+                    <button class="buy-now-button">Buy Now <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="item-img col-md-5 col-sm-5 col-12 col-lg-5 col-xl-5 ">
+                    <img src="images/banner-images/tv.png" class=" img-fluid d-block w-75" alt="...">
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                       
+                       <div class="caption col-md-7 col-sm-7 col-12 col-lg-7 col-xl-7">
+                        <h1 class="title">Sony-Experia Headset </h1>
+                        <p>Experience the best way to enjoy sound-tracks with Sony-Experia Headsets</p>
+                        <h1 class="price">$200</h1>
+                        <button class="buy-now-button">Buy Now <i class="fas fa-arrow-right"></i></button>
+                       </div>
+                       <div class="item-img col-md-5 col-sm-5 col-12 col-lg-5 col-xl-5 ">
+                           <img src="images/banner-images/headphone.png" class=" img-fluid d-block w-75" alt="...">
+                       </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                
+                    <div class="caption col-md-7 col-sm-7 col-12 col-lg-7 col-xl-7 ">
+                        <h1 class="title">X-BOX 360 </h1>
+                        <p>Experience the best way to play games with X-BOX 360</p>
+                        <h1 class="price">$700</h1>
+                        <button class="buy-now-button">Buy Now <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="item-img col-md-5 col-sm-5 col-12 col-lg-5 col-xl-5 ">
+                        <img src="images/banner-images/xbox.png" class=" img-fluid d-block w-75 " alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden text.dark">Next</span>
+            </button>
+          </div>
+        
+    </div>
+
+      <!-- ********catagory******** -->
+   <section class="container w-75 mt-5   ">
+       <div class="row  row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 justify-content-between ">
+        <div class="col catagory-1 d-flex align-items-center p-2" style="max-width: 22rem;">
+            <div class="col">
+                <h1>WATCH</h1>
+            </div>
+            <div class="col  ps-3 text-end">
+                <img src="images/categories/watch.png" alt="" class="img-fluid w-75" >
+            </div>
+        </div>
+
+        <div class="col catagory-2 d-flex align-items-center" style="max-width: 22rem;">
+            <div class="col">
+                <h1>  BAG</h1>
+            </div>
+            <div class="col  ps-3 text-end">
+                <img src="images/categories/bag.png" alt="" class="img-fluid w-75">
+            </div>
+        </div>
+
+        <div class="col catagory-3 d-flex align-items-center" style="max-width: 22rem;">
+            <div class="col">
+                <h1>Shoes</h1>
+            </div>
+            <div class="col  ps-3 text-end">
+                <img src="images/categories/shoes.png" alt="" class="img-fluid w-75">
+            </div>
+        </div>
+
+       </div>
+
+  </section>
+  <!-- ********catagory end ******** -->
+</header>
+<!-- ==========header end========= -->
+
+<!-- ==========main start========= -->
+<main>
+  
+    
+  <!-- ****************products************ -->
+
+  <section>
+
+            
+       <!-- **********shoes************ -->
+         <section>
+
+         </section>
+       <!-- **********shoes end******** -->
+
+
+
+       
+       <!-- ********Bags ******** -->
+       <section>
+
+       </section>
+       <!-- ********Bags end ******** -->
+  </section>
+
+   <!-- ****************products end************ -->
+
+
+
+
+
+</main>
+<!-- ==========main end========= -->
+
+<!-- ==========footer start========= -->
+<footer>
+
+
+
+</footer>
+<!-- ==========footer end ========= -->
+
+
+    <!-- =======Bootstrap JS Scripting link=========== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
