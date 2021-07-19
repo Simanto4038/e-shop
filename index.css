@@ -20,6 +20,10 @@
        font-weight:700;
    }
 
+   .catagory{
+       padding: 5px;
+   }
+ 
    .catagory-1{
     background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
     color: white;
@@ -37,10 +41,26 @@
 
 }
 
+
+
+
 .catagory-3{
     background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
     color: white;
     border-radius: 10px;   
     margin-top: 5px;
     margin-bottom: 5px;
+
+}
+/* .shoes {
+    column-gap: 2px;
+} */
+
+footer{
+    background: #FFF2F1;
+   
+}
+.send{
+    background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+ color: white;
 }
